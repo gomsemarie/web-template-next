@@ -31,7 +31,7 @@ yarn workspace는 `portal`및 `admin`이 있으며 각 프로젝트의 구성은
 
 ## NPM SCRIPTS 가이드
 
-- ### **`root workspace`**
+- ### **root workspace**
 
   | name              | description                                   |
   | ----------------- | --------------------------------------------- |
@@ -40,7 +40,7 @@ yarn workspace는 `portal`및 `admin`이 있으며 각 프로젝트의 구성은
   | build:storybook   | storybook 빌드                                |
   | coverage:vitest   | vitest를 사용해 테스트 커버리지 출력          |
 
-- ### **`portal workspace`**
+- ### **portal workspace**
 
   | name          | description                                  |
   | ------------- | -------------------------------------------- |
@@ -49,7 +49,7 @@ yarn workspace는 `portal`및 `admin`이 있으며 각 프로젝트의 구성은
   | build:dev     | .env.development를 적용해 build 실행         |
   | build:prod    | .env.production을 적용해 build 실행          |
 
-- ### **`admin workspace`**
+- ### **admin workspace**
 
   | name    | description               |
   | ------- | ------------------------- |
@@ -58,6 +58,8 @@ yarn workspace는 `portal`및 `admin`이 있으며 각 프로젝트의 구성은
 
 <br>
 
-## Template 구축 가이드
+## Guide Link
 
-[Template 바닥부터 구축하기](./.doc/create-template-guide.md)
+- [Template 바닥부터 구축하기](./.doc/create-template-guide.md)
+
+- [VSCode로 개발환경 설정](./.doc/setting-vscode-guide.md)
