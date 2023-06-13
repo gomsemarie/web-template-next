@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "arcanis.vscode-zipfs",
+    "dbaeumer.vscode-eslint",
+    "vscode-icons-team.vscode-icons",
+    "alefragnani.project-manager",
+    "esbenp.prettier-vscode"
+  ]
+}

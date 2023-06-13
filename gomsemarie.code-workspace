@@ -1,0 +1,21 @@
+{
+  "folders": [
+    {
+      "name": "――― PORTAL ―――",
+      "path": "./packages/portal"
+    },
+    {
+      "name": "――― ADMIN ―――",
+      "path": "./packages/admin"
+    },
+    {
+      "name": "__root__",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "window.title": "GOMSEMARIE WORKSPACE",
+    "typescript.tsdk": "__root__/node_modules/typescript/lib",
+    "typescript.enablePromptUseWorkspaceTsdk": true
+  }
+}
