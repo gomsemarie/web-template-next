@@ -3,8 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "next dev --turbo",
-    "build": "next build"
+    "start:local": "env-cmd -f .env.local next dev --turbo",
+    "start:built": "next start",
+    "build:dev": "env-cmd -f .env.development next build",
+    "build:prod": "env-cmd -f .env.production next build"
   },
   "dependencies": {
     "next": "13.4.5",
@@ -13,6 +15,7 @@
   },
   "devDependencies": {
     "@types/react": "18.2.12",
-    "@types/react-dom": "18.2.5"
+    "@types/react-dom": "18.2.5",
+    "env-cmd": "^10.1.0"
   }
 }
