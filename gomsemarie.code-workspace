@@ -9,13 +9,13 @@
       "path": "./packages/admin"
     },
     {
-      "name": "__root__",
+      "name": "ROOT",
       "path": "."
     }
   ],
   "settings": {
     "window.title": "GOMSEMARIE WORKSPACE",
-    "typescript.tsdk": "__root__/node_modules/typescript/lib",
+    "typescript.tsdk": "ROOT/node_modules/typescript/lib",
     "typescript.enablePromptUseWorkspaceTsdk": true
   }
 }
