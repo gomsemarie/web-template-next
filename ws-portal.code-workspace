@@ -1,0 +1,21 @@
+{
+  "folders": [
+    {
+      "name": "ROOT",
+      "path": "."
+    },
+    {
+      "name": "――― PORTAL ―――",
+      "path": "./packages/portal"
+    },
+    {
+      "name": "――― SOURCE ―――",
+      "path": "./packages/portal/app"
+    }
+  ],
+  "settings": {
+    "window.title": "PORTAL WORKSPACE",
+    "typescript.tsdk": "ROOT/node_modules/typescript/lib",
+    "typescript.enablePromptUseWorkspaceTsdk": true
+  }
+}

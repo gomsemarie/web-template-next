@@ -1,0 +1,21 @@
+{
+  "folders": [
+    {
+      "name": "ROOT",
+      "path": ".",
+    },
+    {
+      "name": "――― ADMIN ―――",
+      "path": "./packages/admin"
+    },
+    {
+      "name": "――― SOURCE ―――",
+      "path": "./packages/admin/src"
+    }
+  ],
+  "settings": {
+    "window.title": "ADMIN WORKSPACE",
+    "typescript.tsdk": "ROOT/node_modules/typescript/lib",
+    "typescript.enablePromptUseWorkspaceTsdk": true
+  }
+}

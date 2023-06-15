@@ -4,6 +4,10 @@
 
 ---
 
+## **프로젝트 생성**
+
+<br>
+
 1. **생성하고 싶은 폴더에서 터미널을 열어주세요**
 
 1. `project name` **으로 Next.js 프로젝트 생성**
@@ -117,13 +121,13 @@
 
 <br>
 
-- ### **`Storybook`**
+- ### **Storybook**
 
   ```bash
   npx storybook@latest init
   ```
 
-- ### **`Vitest`**
+- ### **Vitest**
 
   ```bash
   yarn add -D vitest
@@ -131,7 +135,7 @@
   yarn add -D jsdom @testing-library/react @testing-library/jest-dom @testing-library/user-event @types/testing-library__user-event
   ```
 
-- ### **`daisy UI`**
+- ### **daisy UI**
 
   ```bash
   yarn add -D daisyui
@@ -146,7 +150,7 @@
   };
   ```
 
-- ### **`Emotion`**
+- ### **Emotion**
 
   ```bash
   yarn add @emotion/react @emotion/styled

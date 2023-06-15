@@ -4,6 +4,7 @@
     "dbaeumer.vscode-eslint",
     "vscode-icons-team.vscode-icons",
     "alefragnani.project-manager",
-    "esbenp.prettier-vscode"
+    "esbenp.prettier-vscode",
+    "ms-ceintl.vscode-language-pack-ko"
   ]
 }
