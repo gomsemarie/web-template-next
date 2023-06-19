@@ -1,0 +1,25 @@
+[data-page="daisySample"] {
+  display: grid;
+  padding: 50px;
+  gap: 20px;
+
+  & > .title {
+    font-size: 3.2em;
+    line-height: 1.1;
+    padding: 50px 0;
+  }
+}
+
+[data-component="sample-box"] {
+  cursor: pointer;
+
+  & > .title {
+    text-align: left;
+    padding: 10px 0;
+
+    font-weight: bold;
+  }
+
+  & > .sample {
+  }
+}

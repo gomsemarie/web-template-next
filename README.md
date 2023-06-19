@@ -1,4 +1,4 @@
-# [Template] Web Monorepo Project
+# [Template] NFTtown Monorepo Project
 
 <p align="left">
    <img src="https://img.shields.io/github/license/themeselection/materio-mui-react-nextjs-admin-template-free" alt="license">

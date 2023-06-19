@@ -5,6 +5,7 @@
     "vscode-icons-team.vscode-icons",
     "alefragnani.project-manager",
     "esbenp.prettier-vscode",
-    "ms-ceintl.vscode-language-pack-ko"
+    "ms-ceintl.vscode-language-pack-ko",
+    "huuums.vscode-fast-folder-structure"
   ]
 }

@@ -1,0 +1,15 @@
+[data-page="linker"] {
+  display: grid;
+  justify-content: center;
+
+  & > .title {
+    font-size: 3.2em;
+    line-height: 1.1;
+    padding: 50px 0;
+  }
+
+  & > .link {
+    text-align: center;
+    cursor: pointer;
+  }
+}
