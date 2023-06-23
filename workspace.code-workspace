@@ -1,0 +1,29 @@
+{
+  "folders": [
+    {
+      "name": "ROOT",
+      "path": "."
+    },
+    {
+      "name": "――― PORTAL ―――",
+      "path": "./packages/portal"
+    },
+    {
+      "name": "――― ADMIN ―――",
+      "path": "./packages/admin"
+    },
+    {
+      "name": "――― SAMPLE ―――",
+      "path": "./packages/sample"
+    }
+  ],
+  "settings": {
+    "search.exclude": {
+      "**/.yarn": true,
+      "**/.pnp.*": true
+    },
+    "window.title": "NFTtown Workspace",
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "typescript.enablePromptUseWorkspaceTsdk": true
+  }
+}

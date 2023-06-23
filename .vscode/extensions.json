@@ -6,6 +6,7 @@
     "alefragnani.project-manager",
     "esbenp.prettier-vscode",
     "ms-ceintl.vscode-language-pack-ko",
-    "huuums.vscode-fast-folder-structure"
+    "huuums.vscode-fast-folder-structure",
+    "csstools.postcss"
   ]
 }

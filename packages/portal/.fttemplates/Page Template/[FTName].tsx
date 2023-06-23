@@ -1,5 +1,5 @@
 /*------------------------------------------------------------------------------------------------------------------------------------------
- * [FTName | capitalize].tsx
+ * [FTName | pascalcase].tsx
  * WRITER : 모시깽이
  * DATE : 20XX-XX-XX
  * DISCRIPTION : 
@@ -8,12 +8,8 @@
 --------------------------------------------------------------------------------------------------------------------------------------------*/
 import React from 'react';
 
-interface <FTName | capitalize>Props {}
-
-function <FTName | capitalize> (props: <FTName | capitalize>Props) { 
+function <FTName | pascalcase> () { 
   /* ――――――――――――――― Variable ――――――――――――――― */
-  /* Props ――――― */
-  const {} = props;
   /* State ――――― */
   /* Const ――――― */
   /* API ――――――― */
@@ -26,6 +22,6 @@ function <FTName | capitalize> (props: <FTName | capitalize>Props) {
   return <div data-page="[FTName | camelcase]">New Page</div>;
 };
 
-namespace <FTName | capitalize> {};
+namespace <FTName | pascalcase> {};
 
-export default <FTName | capitalize>;
+export default <FTName | pascalcase>;

@@ -48,6 +48,4 @@ next-env.d.ts
 
 # workspace
 *.code-workspace
-!ws-admin.code-workspace
-!ws-portal.code-workspace
-!ws-gomsemarie.code-workspace
+!workspace.code-workspace

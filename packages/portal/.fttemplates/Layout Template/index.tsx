@@ -1,3 +1,3 @@
-import <FTName | capitalize> from './[FTName | capitalize]';
+import <FTName | pascalcase> from './[FTName | pascalcase]';
 
-export default <FTName | capitalize>;
+export default <FTName | pascalcase>;

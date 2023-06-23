@@ -8,9 +8,9 @@
 --------------------------------------------------------------------------------------------------------------------------------------------*/
 import React from 'react';
 
-interface <FTName | capitalize>Props {};
+interface <FTName | pascalcase>Props {};
 
-function <FTName | capitalize> (props: <FTName | capitalize>Props) { 
+function <FTName | pascalcase> (props: <FTName | pascalcase>Props) { 
   /* ――――――――――――――― Variable ――――――――――――――― */
   /* Props ――――― */
   const {} = props;
@@ -30,6 +30,6 @@ function <FTName | capitalize> (props: <FTName | capitalize>Props) {
   );
 };
 
-namespace <FTName | capitalize> {};
+namespace <FTName | pascalcase> {};
 
-export default <FTName | capitalize>;
+export default <FTName | pascalcase>;
