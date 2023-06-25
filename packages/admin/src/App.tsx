@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import * as MainPage from "./pages/main";
 
 import "./App.scss";
+import DefaultLayout from "./layout/DefaultLayout";
 
 function App() {
   return (
@@ -9,10 +10,9 @@ function App() {
       <Routes>
         <Route path="/" element={<MainPage.Root />} />
 
-        {/* <Route element={<CenterLayout />}>
-          <Route path="sign-in" element={<Pages.Main.SignIn />} />
-          <Route path="sign-up" element={<Pages.Main.SignUp />} />
-        </Route> */}
+        <Route element={<DefaultLayout />}>
+          <Route path="/sample" element={<MainPage.Root />} />
+        </Route>
 
         <Route path="*" element={<MainPage.NotFound />} />
       </Routes>

@@ -2,7 +2,7 @@
   "name": "@project/admin",
   "version": "0.1.0",
   "scripts": {
-    "start": "vite",
+    "start:local": "vite",
     "start:storybook": "storybook dev -p 6007",
     "build": "tsc && vite build",
     "build:storybook": "storybook build"
@@ -29,8 +29,10 @@
     "@types/react-dom": "18.2.5",
     "@vitejs/plugin-react": "^4.0.0",
     "@vitejs/plugin-react-swc": "^3.0.0",
+    "env-cmd": "^10.1.0",
     "prop-types": "^15.8.1",
     "storybook": "^7.0.20",
-    "vite": "^4.3.2"
+    "vite": "^4.3.2",
+    "vite-plugin-html": "^3.2.0"
   }
 }
