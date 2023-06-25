@@ -7,6 +7,7 @@
  * 개정이력 :
 --------------------------------------------------------------------------------------------------------------------------------------------*/
 import React from 'react';
+import './DefaultLayout.scss';
 
 interface DefaultLayoutProps {};
 
@@ -25,7 +26,9 @@ function DefaultLayout (props: DefaultLayoutProps) {
   /* ―――――――――――――――― Return ―――――――――――――――― */
   return (
     <div data-layout='defaultLayout'>
-      <div></div>
+      <div className='left-menu-area'></div>
+      <div className='top-menu-area'></div>
+      <div className='content-area'>ㄴㅇㄴㅇ</div>
     </div>
   );
 };

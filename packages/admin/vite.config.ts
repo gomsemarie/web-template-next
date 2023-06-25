@@ -29,5 +29,12 @@ export default ({ mode }) => {
       host: "localhost",
       port: 3001,
     },
+    css: {
+      preprocessorOptions: {
+        scss: {
+          additionalData: '@use "src/styles/palette" as palette;' 
+        }
+      }
+    }
   }
 };

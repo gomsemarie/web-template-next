@@ -1,0 +1,22 @@
+
+[data-layout="defaultLayout"] {
+    width: 100vw;
+    height: 100vh;
+
+    display: grid;
+    grid-template-columns: 300px auto;
+    grid-template-rows: 60px auto;
+
+    & > .left-menu-area {
+        grid-row: span 2;
+        background-color: palette.$test-color;
+    }
+
+    & > .top-menu-area {
+        background-color: aquamarine;
+    }
+
+    & > .content-area {
+        background-color: antiquewhite;
+    }
+}
